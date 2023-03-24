@@ -1,18 +1,18 @@
 using Microsoft.AspNetCore.Mvc;
-using Sabio.Services;
-using Sabio.Web.Controllers;
+using Immersed.Services;
+using Immersed.Web.Controllers;
 using Microsoft.Extensions.Logging;
-using Sabio.Web.Models.Responses;
+using Immersed.Web.Models.Responses;
 using System;
-using Sabio.Models.Requests;
-using Sabio.Models.Enums;
+using Immersed.Models.Requests;
+using Immersed.Models.Enums;
 using System.Security.Claims;
-using Sabio.Services.Interfaces;
+using Immersed.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
-using Sabio.Services.Security;
+using Immersed.Services.Security;
 
 
-namespace Sabio.Web.Api.Controllers
+namespace Immersed.Web.Api.Controllers
 {
     [Route("api/emails")]
     [ApiController]
